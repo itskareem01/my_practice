@@ -4,16 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>time pass</title>
+    <title>Document</title>
 </head>
 <body>
-  <div class="nav">
-      <ul>
-          <li>home</li>
-          <li>about</li>
-          <li>contact</li>
-          <li>login</li> 
-      </ul> 
-  </div>  
-</body> 
+    <div class="navbar">
+        <nav>
+           <a href="#">HOME</a>
+           <a href="#">CONTACT</a>
+           <a href="#">ABOUT US</a>
+           <a href="#">LOGIN</a>
+        </nav>
+    </div>
+    <br>
+    <div class="main" id="login">
+        <form action="inp.txt" method="GET">
+            <div> Name: <input type="text" name="Candidate" required autocomplete="on"></div><br>
+            <div>Email: <input type="email" name="emp_mail" placeholder="Example@gmail.com" required></div><br>
+            <div>Gender: <input type="radio" name="gender"  > Male <input type="radio" name="gender" required > Female <input type="radio" name="gender" > Prefer not to Say </div><br>
+            <div> Location: <input type="text" name="Location" value="Hyderabad" readonly></div><br>
+            <div>Joining Date: <input type="date" name="JoinDate"></div><br>
+            <div>
+                <label for="name">Candidate Id:</label>
+                <select name="name" id="name" required >
+                    <option value="" disabled selected hidden>Emp  Id</option>
+                    <optgroup label="Initial">
+                        <option value="301">301</option>
+                        <option value="302">302</option>
+                        <option value="303">303</option>
+                        <option value="304">304</option>
+                        <option value="305">305</option>
+                        <option value="306">306</option>
+                        <option value="307">307</option>
+                        <option value="308">308</option>
+                        <option value="309">309</option>
+                        <option value="310">310</option>
+                    </optgroup>
+                    <optgroup label="Middle">
+                        <option value="311">311</option>
+                        <option value="312">312</option>
+                        <option value="313">313</option>
+                        <option value="314">314</option>
+                        <option value="315">315</option>
+                        <option value="316">316</option>
+                        <option value="317">317</option>
+                        <option value="318">318</option>
+                        <option value="319">319</option>
+                        <option value="320">320</option>
+                    </optgroup>
+                    <optgroup label="Final">
+                        <option value="320">320</option>
+                        <option value="321">321</option>
+                        <option value="322">322</option>
+                        <option value="323">323</option>
+                        <option value="324">324</option>
+                        <option value="325">325</option>
+                    </optgroup>
+                </select>
+            </div><br>
+            <div>Applied for ESI ?: <input type="checkbox" name="applied" ></div><br>
+            <div><input type="submit" value="Submit Here"></div>
+        </form>
+    </div>
+</body>
 </html>
