@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d26adf7f45.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        #main {
+            width: 100%;
+            height: 100vh;
+            /* border: 2px solid black; */
+            display: flex;
+        }
+
+        #left {
+            width: 50%;
+            height: 100%;
+            /* border: 2px solid red; */
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        #right {
+            width: 50%;
+            height: 100%;
+            /* border: 2px solid green; */
+            /* background-color: gray; */
+
+            background-image: linear-gradient(to top right, rgb(158, 101, 199), #565aa1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        #form {
+            width: 350px;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            font-size: 32px;
+            font-weight:lighter;
+        }
+
+        #form input {
+            background-color: none;
+            border-style: none;
+            margin: 17px;
+        }
+
+        input {
+            height: 30px;
+            width: 230px;
+        }
+
+        #form a {
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+            font-size: 13px;
+            margin-right: 35px;
+        }
+
+        #submit {
+            background-color: rgb(55, 230, 160);
+            height: 40px;
+            width: 170px;
+            border-radius: 20px;
+            box-shadow: 0px 5px 15px rgba(46, 229, 157, 0.4);
+            cursor: pointer;
+
+        }
+
+        #bottom {
+            position: absolute;
+            bottom: 40px;
+        }
+
+        #contain {
+            /* border: 2px solid black; */
+            width: 345px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 15px;
+            font-size: 45px;
+
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        #contain p {
+            text-align: center;
+            margin: 30px;
+            font-size: 13px;
+        }
+
+        #contain img {
+            width: 75px;
+            margin-top: 60px;
+            filter: invert(100%);
+        }
+
+        #bottom span {
+            margin: 30px;
+            border-right: 2px solid white;
+        }
+
+        #bottom p{
+            font-size: 12px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="left">
+            <div id="form">
+                <h2>Get Started</h2>
+                <form action="#">
+                    <i class="fas fa-user-friends"></i>
+                    <input type="text" name="Uname" placeholder="Username">
+                    <hr>
+                    <i class="fas fa-lock"></i>
+                    <input type="password" name="Pass" placeholder="Password">
+                    <hr>
+                    <a href="#">Forget Password?</a>
+                    <input type="submit" id="submit" value="SIGN IN">
+                </form>
+            </div>
+
+        </div>
+        <div id="right">
+            <div id="contain">
+                <h3> WELCOME TO</h3> <img src="3d-cube-png-47039.png" alt="">
+                <h1>CLASSBOX </h1>
+                <p>Everything is always integrated with your college's online handouts</p>
+
+            </div>
+
+            <div id="bottom">
+                <p> By <b> Abdul Kareem</b><span></span>  Design by <b>Techigai</b></p>
+            </div>
+        </div>
+    </div>
+</body> 
+
+</html>

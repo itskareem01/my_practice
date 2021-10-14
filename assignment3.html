@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multi-selector</title>
+    <script src="https://kit.fontawesome.com/d26adf7f45.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: rgba(164, 236, 215, 0.788);
+        }
+
+        .items {
+            display: flex;
+            align-items: center;
+            /* justify-content: center; */
+            flex-direction: column;
+            width: 200px;
+            height: 300px;
+            border: 2px solid black;
+            margin: 30px;
+            border-radius: 25px;
+        }
+
+        .items img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin: 10px;
+        }
+
+        .foot {
+            display: flex;
+            justify-self: flex-end;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="items" id="items-1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDVOAcHf5fGUDuq8xo62fASJgQCsTi-xxYqA&usqp=CAU"
+                alt="">
+            <h2>Modi</h2>
+            <p><i class="fas fa-map-marker-alt"></i>india</p>
+            <div class="foot">
+
+            </div>
+        </div>
+        <div class="items" id="items-2">
+            <img src="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/person/image/2792/s465_Boris_Johnson_.jpg"
+                alt="">
+            <h2>Boris</h2>
+            <p><i class="fas fa-map-marker-alt"></i>England</p>
+            <div class="foot">
+
+            </div>
+        </div>
+        <div class="items" id="items-3">
+            <img src="https://image.cnbcfm.com/api/v1/image/106878527-1620223837055-106748412-1602881184740-biden.jpg?v=1620224062"
+                alt="">
+            <h2>Joe</h2>
+            <p><i class="fas fa-map-marker-alt"></i>india</p>
+            <div class="foot">
+
+            </div>
+        </div>
+        <div class="items" id="items-4">
+            <img src="https://c.ndtvimg.com/2021-08/6gck6u18_kim-jong-un-bloomberg-270_295x200_03_August_21.jpg" alt="">
+            <h2>Kim Jong Un</h2>
+            <p><i class="fas fa-map-marker-alt"></i>india</p>
+            <div class="foot">
+                <div>
+                    <h3>Following</h3>
+                    <p>100</p>
+                </div>
+                <div>
+                    <h3>Followers</h3>
+                    <p>100</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

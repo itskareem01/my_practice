@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+/* body{
+    background-image: url(https://cdn.wallpapersafari.com/47/44/GDqpEN.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+header {
+    height: 20vh;
+    width: 100%;
+    background-image: url(https://wallpaperaccess.com/full/1614310.jpg);
+    /* background-color: black; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 1;
+}
+
+header img {
+    height: 100%;
+    transform: scaleX(-1);
+    filter: brightness(5.6);
+}
+
+header p {
+    width: 100%;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+
+
+#Home {
+    background-image: url(https://i.pinimg.com/originals/58/18/a2/5818a22389fc27280be6ea4a20e73d22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Login {
+    background-image: url(https://t3.ftcdn.net/jpg/02/92/90/56/360_F_292905667_yFUJNJPngYeRNlrRL4hApHWxuYyRY4kN.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Contact {
+    background-image: url(https://previews.123rf.com/images/o0matze0o/o0matze0o1805/o0matze0o180500018/101535114-website-and-internet-contact-us-page-concept-with-hanging-icons-in-front-of-a-silver-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#About {
+    background-image: url(https://media.istockphoto.com/photos/wooden-block-with-message-about-us-picture-id1282357363?b=1&k=20&m=1282357363&s=170667a&w=0&h=QH5Krp9DOpND-94wv6vx1B2vNOY7ZvvEaA3IPiualc8=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    height: 8vh;
+    width: 100%;
+    background-image: url(https://wallpaperaccess.com/full/1614310.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+nav a {
+    height: 100%;
+    width: 100px;
+    display: flex;
+    color: rgb(234, 255, 44);
+    justify-content: center;
+    align-items:center;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+nav a:hover  {
+    background-color: rgba(114, 235, 235, 0.37);
+    font-size: 25px;
+}
+nav a:active {
+    text-decoration: underline;
+}
+section {
+    height: 100vh;
+    width: 100%;
+    padding-top: 60px;
+}
+
+#login_form {
+    height: 290px;
+    width: 500px;
+    margin-right: 15px;
+    position: relative;
+    right: 45px;
+    top: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgba(109, 141, 209, 0.459);
+}
+
+#login_form h3 {
+    text-align: center;
+    font-size: 35px;
+}
+
+#login_form input {
+    margin: 18px;
+    width: 250px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: rgba(193, 187, 187, 0.6);
+
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
+#name {
+    display: inline-block;
+    margin: 15px;
+}
+
+#input {
+    display: inline-block;
+}
+
+#login_form #submit {
+    width: 100px;
+    height: 32px;
+    float: right;
+    border-radius: 10px;
+    background-color: rgba(109, 141, 209, 0.459);
+    cursor:pointer;
+}
+
+#login_form #submit:hover {
+    /* font-size: 1.2em; */
+    background-color: rgba(109, 141, 209);
+}
